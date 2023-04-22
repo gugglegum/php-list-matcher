@@ -1,2 +1,3 @@
-# php-list-matcher
-Universal callback-powered item matcher for different lists
+# PHP List Matcher
+
+The universal callback-powered item matcher for different arrays.

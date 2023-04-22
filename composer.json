@@ -1,0 +1,30 @@
+{
+  "name": "gugglegum/php-list-matcher",
+  "description": "Universal callback-powered item matcher for different lists",
+  "type": "library",
+  "keywords": ["lists", "diff", "list", "match", "array", "matcher", "callback", "arrays", "compare", "intersection", "comparer", "intersect"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Paul Melekhov",
+      "email": "gugglegum@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "gugglegum\\ListMatcher\\": "src/",
+      "gugglegum\\ListMatcherTests\\": "tests/"
+    }
+  },
+  "require": {
+    "php": ">=8.0"
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "gugglegum\\ListMatcher\\tests\\": "tests/"
+    }
+  },
+  "require-dev": {
+    "phpunit/phpunit": "*"
+  }
+}
